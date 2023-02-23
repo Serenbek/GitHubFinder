@@ -72,9 +72,14 @@ function SearchBlock() {
         name={exportData.name}
         nickName={exportData.login}
         joined={exportData.created_at}
+        bio={exportData.bio}
         repos={exportData.public_repos}
         following={exportData.following}
         followers={exportData.followers}
+        location={exportData.location}
+        twitter={exportData.twitter_username}
+        company={exportData.company}
+        email={exportData.email}
       />
     </>
   );
